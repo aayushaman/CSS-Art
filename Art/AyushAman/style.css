@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding:0;
+}
+.main {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+height: 900px;
+position: absolute;
+animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.container:nth-child(1) {
+    animation-delay:.3s;
+}
+.container:nth-child(2) {
+    animation-delay:.6s;
+}
+.container:nth-child(3) {
+    animation-delay:.9s;
+}
+.container:nth-child(4) {
+    animation-delay:1.2s;
+}
+.container:nth-child(5) {
+    animation-delay:1.5s;
+}
+.container:nth-child(6) {
+    animation-delay:1.8s;
+}
+.container:nth-child(6) {
+    animation-delay:2.1s;
+}
+.container:nth-child(8) {
+    animation-delay:2.4s;
+}
+.container:nth-child(9) {
+    animation-delay:2.7s;
+}
+.container:nth-child(10) {
+    animation-delay:3s;
+}
+.container .circle {
+    height: 450px;
+    width: 40px;
+    background:white;
+    border-radius:50%;
+    animation: dots 3s linear infinite;
+}
+@keyframes dots{
+    from {
+        background: orange;
+    }
+    to {
+        background:white;
+    }
+}
+.container:nth-child(1) .circle{
+    animation-delay:.3s;
+}
+.container:nth-child(2) .circle {
+    animation-delay:.6s;
+}
+.container:nth-child(3) .circle{
+    animation-delay:.9s;
+}
+.container:nth-child(4) .circle{
+    animation-delay:1.2s;
+}
+.container:nth-child(5) .circle{
+    animation-delay:1.5s;
+}
+.container:nth-child(6) .circle{
+    animation-delay:1.8s;
+}
+.container:nth-child(6) .circle{
+    animation-delay:2.1s;
+}
+.container:nth-child(8) .circle{
+    animation-delay:2.4s;
+}
+.container:nth-child(9) .circle{
+    animation-delay:2.7s;
+}
+.container:nth-child(10) .circle{
+    animation-delay:3s;
+}

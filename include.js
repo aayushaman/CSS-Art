@@ -43,6 +43,13 @@ let cards = [
     githubLink: 'https://github.com/sakshii2000'
   },
   {
+    artName: 'Rotate',
+    pageLink: './Art/AyushAman/index.html',
+    imageLink: './Art/AyushAman/Rotate.gif',
+    author: 'Ayush Aman',
+    githubLink: 'https://github.com/aayushaman'
+  },
+  {
     pageLink: './Art/OmkarGunjal/wavefront.html',
     imageLink: './Art/OmkarGunjal/WavefrontEffect.gif',
     author: 'Omkar Gunjal',
